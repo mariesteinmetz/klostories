@@ -1,0 +1,166 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar {
+  width: 17px;
+  height: 17px;
+}
+
+::-webkit-scrollbar-track {
+  border-style: none;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background-color: black;
+  border: 3px solid transparent;
+  background-clip: content-box;
+  cursor: pointer;
+}
+.collage {
+  width: 80wh;
+  height: 80vh;
+  padding: 10vh;}
+
+.orange-background {
+  /* background-image: url('images/background_farbe.png'); */
+  background-color: white;
+  /* position: fixed; */
+  /* background-size: cover; */
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  flex-wrap: wrap;
+ /*  align-content: space-evenly; */
+  /* align-items: center; */
+  gap: 50px;
+
+  /* border: 3px solid red; */
+
+  width: 100%;
+  height: 100%;
+  z-index: -8;
+
+ /*  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+
+  /* overflow: hidden;  */
+
+  /* padding: 100px; */
+}
+
+.public_day_background, .eclipsefashion_men, .fittingroom_women_day, .wheelchair_women, .old_women, .dog_women, .marie_pissing, .car, .museum_poster, .window, .public_clock, .cafe_achteck_berlin, .vespesienne_paris, .sun, .private_women { background-repeat: no-repeat; 
+  background-repeat: no-repeat; 
+}
+
+/* ab hier basics------------------------------------------------------------------------------- */
+
+/* .collage {height: 100%;}
+ */
+.overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  pointer-events: none;
+  z-index: 2000;
+}
+
+.overlay.active {
+  pointer-events: all;
+  opacity: 1;
+}
+
+.element-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 5px solid #DE048E;
+  height: 600px;
+  width: 800px;
+  border-radius: 15px;
+  box-shadow: 15px 15px 0px #DE048E;
+  z-index: 3000;
+}
+
+.imprint-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 5px solid #1100FF;
+  height: 600px;
+  width: 800px;
+  border-radius: 15px;
+  box-shadow: 15px 15px 0px #1100FF;
+  z-index: 3000;
+}
+
+.home-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 5px solid #DE048E;
+  height: 600px;
+  width: 800px;
+  border-radius: 15px;
+  box-shadow: 15px 15px 0px #DE048E;
+  z-index: 3000;
+}
+
+iframe {
+  flex: 1;
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+.imprint-popup.active {
+  transform: translate(-50%, -50%) scale(1); /*we use scale and not display so we can transition smoothly*/
+}
+
+.home-popup.active {
+  transform: translate(-50%, -50%) scale(1); /*we use scale and not display so we can transition smoothly*/
+}
+
+.element-popup.active {
+  transform: translate(-50%, -50%) scale(1); /*we use scale and not display so we can transition smoothly*/
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  background: none;
+  height: 70px;
+  border: none;
+  font-family: "dm-sans-36pt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  color: #1100FF;
+  cursor: pointer;
+  transition: hover 0.6s;
+}
+
+.close-button:hover {
+  transform: scale(1.3);
+}
+
