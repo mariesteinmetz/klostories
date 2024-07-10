@@ -1,0 +1,21 @@
+.bartender-overlay {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 20px;
+  right: 0;
+  bottom: 0;
+  z-index: 2000;
+}
+
+
+
+.bartender-popup {
+  height: 100%;
+}
+
+.iframe-content {
+  border: none;
+  height: 100%;
+  width: 100%;
+}
