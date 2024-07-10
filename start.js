@@ -60,7 +60,7 @@ closeHomePopup.addEventListener('click', (event) => {
 //* private */
 const privateButton = document.getElementById('private-button'); 
 
-privateButton.addEventListener('click', (event) => {window.location.href = '/Website/PRIVATE/00_START/start.html';
+privateButton.addEventListener('click', (event) => {window.location.href = 'PRIVATE/00_START/start.html';
 });
 
 /* public-day */
@@ -68,10 +68,10 @@ const publicDayButton = document.getElementById('public-day-button');
 const publicDayButton2 = document.getElementById('public-day-button-2'); 
 
 publicDayButton.addEventListener('click', (event) => { 
-  window.location.href = '/Website/PUBLIC-DAY/00_START/start.html';
+  window.location.href = 'PUBLIC-DAY/start.html';
 });
 publicDayButton2.addEventListener('click', (event) => { 
-  window.location.href = '/Website/PUBLIC-DAY/00_START/start.html';
+  window.location.href = 'PUBLIC-DAY/start.html';
 });
 
 /* semi-private */
@@ -79,24 +79,24 @@ const semiPrivateButton = document.getElementById('semi-private-button');
 const semiPrivateButton2 = document.getElementById('semi-private-button-2'); 
 
 semiPrivateButton.addEventListener('click', (event) => { 
-  window.location.href = '/Website/SEMI-PRIVATE/00_START/start.html';
+  window.location.href = 'SEMI-PRIVATE/00_START/start.html';
 });
 semiPrivateButton2.addEventListener('click', (event) => { 
-  window.location.href = '/Website/SEMI-PRIVATE/00_START/start.html';
+  window.location.href = 'SEMI-PRIVATE/00_START/start.html';
 });
 
 /* semi-public */
 const semiPublicButton = document.getElementById('semi-public-button'); 
 
 semiPublicButton.addEventListener('click', (event) => { 
-  window.location.href = '/Website/SEMI-PUBLIC/00_START/start.html';
+  window.location.href = 'SEMI-PUBLIC/start.html';
 });
 
 /* public-night */
 const publicNightButton = document.getElementById('public-night-button'); 
 
 publicNightButton.addEventListener('click', (event) => { 
-  window.location.href = '/Website/PUBLIC-NIGHT/00_START/start.html';
+  window.location.href = 'PUBLIC-NIGHT/start.html';
 });
 
 
