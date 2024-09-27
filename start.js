@@ -60,7 +60,7 @@ closeHomePopup.addEventListener('click', (event) => {
 //* private */
 const privateButton = document.getElementById('private-button'); 
 
-privateButton.addEventListener('click', (event) => {window.location.href = '/Website/PRIVATE/00_START/start.html';
+privateButton.addEventListener('click', (event) => {window.location.href = 'PRIVATE/00_START/start.html';
 });
 
 /* public-day */
