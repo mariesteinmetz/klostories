@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>game over :(</title>
+
+    <link rel="stylesheet" href="game-over.css">
+
+    <link rel="stylesheet" href="https://use.typekit.net/cmr4tqt.css">
+
+  </head>
+
+  <body>
+
+    <div class="imprint">
+      <button id="imprint-button" class="imprint-button"></button>
+    </div>
+
+    <div class="imprint-popup" id="imprint-popup">
+
+      <iframe src="/Website/HOME-IMPRINT/imprint/popup.html" frameborder="0"></iframe>
+      
+      <button id="close-imprint-popup" class="close-button">&times;</button>
+    </div>
+    <div id="imprint-overlay" class="overlay"></div>
+
+
+    <div class="home">
+      <button id="home-button" class="home-button"></button>
+    </div>
+
+      <div class="home-popup" id="home-popup">
+
+        <iframe src="/Website/HOME-IMPRINT/home/popup.html" frameborder="0"></iframe>
+        
+        <button id="close-home-popup" class="close-button">&times;</button>
+      </div>
+      <div id="home-overlay" class="overlay"></div>
+
+    <div class="background">
+
+
+
+      <div class="pee">
+
+        <div class="pee_1"></div>
+
+        <div class="pee_2"></div>
+      </div>
+
+    <div class="old-lady"></div>
+    <div class="speaking-bubble">
+      <div class="text">
+        <div class="title"><p>oh no!</p></div>
+      <p>I live only two blocks down the road and the weather was so good, I thought i would go for a walk and do some groceries. My grandkids will come and visit this afternoon!</p>
+      <p>But with age, the city becomes harder to live in. There are no benches to rest, and <span class="bold-italic">incontingency</span> becomes a reality i'm getting more and more familiar with. I need to go to the toilet so much more... </p>
+      <p>I tried the <span class="bold">public toilet</span> in the parc, but it was <span class="bold-italic">too dirty</span> for me to use. You know with my age I don't have the muscle strength anymore to squate, even if i always carry my cane with me... The next public toilet would have been way <span class="bold-italic">too far away</span> for me to reach on time.</p>
+      </div>
+    </div>
+
+    </div>
+
+    <div class="buttons">
+      <button id="pfyr-how-button" class="info-button">
+        <div class="i-circle">i</div>
+        <div class="i-title">What could be our rights to the toilet?</div>
+      </button>
+
+      <div class="element-popup" id="pfyr-how-popup">
+
+        <iframe src="/Website/SEMI-PRIVATE/GAME-OVER/pfyr-how/popup.html" frameborder="0"></iframe>
+        
+        <button id="close-pfyr-how-popup" class="close-button">&times;</button>
+      </div>
+  
+      <div class="overlay" id="pfyr-how-overlay"></div>
+    
+
+      <button id="continue-button" class="continue-button">
+        <div class="game-button"></div>
+        <div class="game-title">Continue the game</div>
+      </button>
+    </div>
+
+
+    <script>
+      const imprintButton = document.getElementById('imprint-button');
+      const closeImprintPopup = document.getElementById('close-imprint-popup');
+      const imprintPopup = document.getElementById('imprint-popup'); 
+      const imprintOverlay = document.getElementById('imprint-overlay'); 
+
+      imprintButton.addEventListener('click', (event) => {
+        imprintPopup.classList.add('active'); 
+        imprintOverlay.classList.add('active');
+      });
+
+      closeImprintPopup.addEventListener('click', (event) => {
+      imprintPopup.classList.remove('active');
+      imprintOverlay.classList.remove('active');
+});
+
+      const homeButton = document.getElementById('home-button');
+      const closeHomePopup = document.getElementById('close-home-popup');
+      const homePopup = document.getElementById('home-popup'); 
+      const homeOverlay = document.getElementById('home-overlay'); 
+
+      homeButton.addEventListener('click', (event) => {
+      homePopup.classList.add('active'); 
+      homeOverlay.classList.add('active');
+    });
+
+      closeHomePopup.addEventListener('click', (event) => {
+      homePopup.classList.remove('active');
+      homeOverlay.classList.remove('active');
+      });
+
+
+      const pfyrHowButton = document.getElementById('pfyr-how-button');
+      const closePfyrHowPopup = document.getElementById('close-pfyr-how-popup');
+      const pfyrHowPopup = document.getElementById('pfyr-how-popup');
+      const pfyrHowOverlay = document.getElementById('pfyr-how-overlay'); 
+
+      pfyrHowButton.addEventListener('click', (event) => {
+        pfyrHowPopup.classList.add('active');
+        pfyrHowOverlay.classList.add('active');
+      });
+
+      closePfyrHowPopup.addEventListener('click', (event) => {
+        pfyrHowPopup.classList.remove('active');
+        pfyrHowOverlay.classList.remove('active');
+      });
+
+      const continueGameButton = document.getElementById('continue-button');
+
+      continueGameButton.addEventListener('click', (event) => {
+        window.parent.postMessage('continueGame', '*');
+        window.parent.parent.postMessage('continueGame', '*');
+      });
+
+
+    </script>
+  </body>
+</html>
