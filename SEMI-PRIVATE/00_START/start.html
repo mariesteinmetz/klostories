@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>semi private world</title>
+
+    <link rel="stylesheet" href="collage.css">
+
+    <link rel="stylesheet" href="buttons.css">
+
+
+    <link rel="stylesheet" href="bartender/overlay.css">
+
+    <link rel="stylesheet" href="https://use.typekit.net/cmr4tqt.css">
+
+  </head>
+
+  <body>
+  
+      <div class="collage">
+        <div class="orange-background"></div>
+        <div class="background">
+          <div class="redwall"></div>
+          <div class="pinkwall"></div>
+          <div class="floor"></div>
+          <div class="carpet"></div>
+          <div class="backfloor"></div>
+          <div class="backwall"></div>
+
+          <div> <!---pfyr--->
+            <div class="pfyr">
+            <button id="pfyr-button" class="pfyr-button"></button>
+            </div>
+
+            <div class="element-popup"      id="pfyr-popup">
+
+              <iframe src="pfyr/popup.html" frameborder="0"></iframe>
+              
+              <button id="close-pfyr-popup" class="close-button">&times;</button>
+            </div>
+        
+            <div class="overlay" id="pfyr-overlay"></div>
+            
+          </div> 
+
+
+
+          <div class="museum">
+            <button id="semi-public-button" class="museum-button"></button>
+            </div>
+
+          <div class="WC"></div>
+          <div class="tables"></div>
+          <div class="tabledeco"></div>
+          <div class="Bar"></div>
+          <div class="clock">
+            <button id="clock-button" class="clock-button"></button>
+          </div>
+          <div class="window">
+            <button id="private-button" class="window-button"></button>
+          </div>
+          
+          <div> <!---bartender--->
+
+            <div class="bartender">
+              <button class="bartender-button" onclick="openPopup('bartenderpopup')"></button>
+
+              <div id="bartenderpopup" class="bartender-overlay">
+                <div class="bartender-popup">
+                  <iframe id="bartenderIframe" src="bartender/overlay.html" class="iframe-content"></iframe>
+                </div>
+              </div>
+
+             
+            </div>
+
+            <!---<div class="bartender-collage"></div>
+          </div>--->
+          <div> <!---conference--->
+            <div class="conference">
+            <button id="conference-button" class="conference-button"></button>
+            </div>
+
+            <div class="element-popup" id="conference-popup">
+
+              <iframe src="conference/popup.html" frameborder="0"></iframe>
+              
+              <button id="close-conference-popup" class="close-button">&times;</button>
+            </div>
+        
+            <div class="overlay" id="conference-overlay"></div>
+            
+          </div> 
+          <div class="door"></div>
+          <div class="mountains">
+            <button id="public-button" class="mountains-button"></button>
+          </div>
+      </div>
+    </div>
+
+
+
+    <div class="imprint">
+      <button id="imprint-button" class="imprint-button">imprint</button>
+    </div>
+
+    <div class="imprint-popup" id="imprint-popup">
+
+      <iframe src="/Website/HOME-IMPRINT/imprint/popup.html" frameborder="0"></iframe>
+      
+      <button id="close-imprint-popup" class="close-button">&times;</button>
+    </div>
+    <div id="imprint-overlay" class="overlay"></div>
+
+
+    <div class="home">
+      <button id="home-button" class="home-button">?</button>
+    </div>
+
+      <div class="home-popup" id="home-popup">
+
+        <iframe src="/Website/HOME-IMPRINT/home/popup.html" frameborder="0"></iframe>
+        
+        <button id="close-home-popup" class="close-button">&times;</button>
+      </div>
+      <div id="home-overlay" class="overlay"></div>
+ 
+
+    </div>
+
+
+  <script src="start.js"></script>
+  </body>
+
+</html>
