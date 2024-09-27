@@ -1,0 +1,177 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar {
+  width: 17px;
+  height: 17px;
+}
+
+::-webkit-scrollbar-track {
+  border-style: none;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background-color: black;
+  border: 3px solid transparent;
+  background-clip: content-box;
+  cursor: pointer;
+}
+
+.orange-background {
+  background-image: url('images/background_farbe.png');
+  position: fixed;
+  background-size: cover;
+  left: 0;
+  bottom: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: -8;
+  /* overflow: hidden;  */
+}
+ 
+.background_base {
+  background-image: url("images/background_base.png");
+  position:absolute;
+  left: 50%;
+  top: 50%;
+  width: 1920px;
+  height: 1080px;
+ /*  z-index: 1; */
+transform: translate(-50%, -50%) scale(0.9);
+/* transform: translate(-50%, -50%); */
+}
+
+.background_base, .orange-background, .fittingroom_women, .policeman_women, .power_of_music_men {
+  background-repeat: no-repeat; 
+}
+
+.period_product_dispenser {
+  background-image: url("images/period-product-dispenser.png");
+  position: absolute;
+  left: 1224px;
+  top: 444px;
+  width: 76px;
+  height: 100px;
+  z-index: 1;
+}
+
+.duchamp {
+  background-image: url("images/duchamp.png");
+  position: absolute;
+  left: 771px;
+  top: 640px;
+  width: 154px;
+  height: 124px;
+  z-index: 1;
+}
+
+/* ab hier basics------------------------------------------------------------------------------- */
+
+/* .collage {height: 100%;}
+ */
+.overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.overlay.active {
+  pointer-events: all;
+  opacity: 1;
+}
+
+.element-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 5px solid #1100FF;
+  height: 600px;
+  width: 800px;
+  border-radius: 15px;
+  box-shadow: 15px 15px 0px #1100FF;
+  z-index: 1500;
+}
+
+.imprint-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 5px solid #1100FF;
+  height: 600px;
+  width: 800px;
+  border-radius: 15px;
+  box-shadow: 15px 15px 0px #1100FF;
+  z-index: 1500;
+}
+
+.home-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 5px solid #DE048E;
+  height: 600px;
+  width: 800px;
+  border-radius: 15px;
+  box-shadow: 15px 15px 0px #DE048E;
+  z-index: 1500;
+}
+
+iframe {
+  flex: 1;
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+.imprint-popup.active {
+  transform: translate(-50%, -50%) scale(1); /*we use scale and not display so we can transition smoothly*/
+}
+
+.home-popup.active {
+  transform: translate(-50%, -50%) scale(1); /*we use scale and not display so we can transition smoothly*/
+}
+
+.element-popup.active {
+  transform: translate(-50%, -50%) scale(1); /*we use scale and not display so we can transition smoothly*/
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  background: none;
+  height: 70px;
+  border: none;
+  font-family: "dm-sans-36pt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  color: #1100FF;
+  cursor: pointer;
+  transition: hover 0.6s;
+}
+
+.close-button:hover {
+  transform: scale(1.3);
+}
+
