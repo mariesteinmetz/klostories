@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>semi public world</title>
+
+  <link rel="stylesheet" href="collage.css">
+
+  <link rel="stylesheet" href="buttons.css">
+
+  <!-- <link rel="stylesheet" href="pfyr.css"> -->
+
+  <!--   <link rel="stylesheet" href="bartender/overlay.css">
+ -->
+  <link rel="stylesheet" href="https://use.typekit.net/cmr4tqt.css">
+
+</head>
+
+<body>
+
+  <div class="collage">
+    <div class="orange-background"></div>
+    <div class="background_base">
+      <!--background elements -->
+      <div class="duchamp"></div>
+      <div class="toilet-signs"></div>
+      <div class="period_product_dispenser"></div>
+      <div> <!---toilet signs--->
+        <div class="toilet-signs">
+          <button id="toilet-signs-button" class="toilet-signs-button"></button>
+        </div>
+      </div>
+      <div> <!---disability sign--->
+        <div class="disability-sign">
+          <button id="disability-sign-button" class="disability-sign-button"></button>
+        </div>
+      </div>
+      <div> <!---door disability--->
+        <div class="door-disability">
+          <button id="door-disability-button" class="door-disability-button"></button>
+        </div>
+      </div>
+      <div> <!---door women--->
+        <div class="door-women">
+          <button id="door-women-button" class="door-women-button"></button>
+        </div>
+      </div>
+      <div> <!---door men--->
+        <div class="door-men">
+          <button id="door-men-button" class="door-men-button"></button>
+        </div>
+      </div>
+      <!-- worlds -->
+      <div class="clock"><!-- to semi-private world -->
+        <button id="semi-private-button" class="clock-button"></button>
+      </div>
+      <div class="window"><!-- to private world -->
+        <button id="private-button" class="window-button"></button>
+      </div>
+      <div class="mountains"></div>
+      <div class="mountains">
+        <button id="public-button" class="mountains-button"></button>
+      </div>
+      <!--- people -->
+      <!-- reading women -->
+      <div class="readingwomen"></div>
+      <div class="readingwomen_bubble">
+        <img src="bubbles/speaking-bubble.png" alt="bubble">
+        <p>
+          Sometimes if the line is too long I even have time to read.
+          Recent German publications I enjoyed have been written and/or collected by klo:lektiv and rosa loo.
+        </p>
+      </div>
+      <!-- tourist women -->
+      <div class="touristwomen"></div>
+      <div class="touristwomen_bubble">
+        <img src="bubbles/speaking-bubble.png" alt="bubble">
+        <p>
+          Oughh the line is so long!
+          I have a urinary tract infection
+          and have to go so badly!
+        </p>
+      </div>
+      <!-- period women -->
+      <div class="periodwomen"></div>
+      <div class="periodwomen_bubble">
+        <img src="bubbles/thinking-bubble.png" alt="bubble">
+        <p>
+          I really should empty my period cup.
+          I wonder if the stalls come with sinks or if the toilets include bidets?
+          Otherwise I have to leave the stall with my hands all bloody and the cup bundled into a clump of toilet paper.
+        </p>
+      </div>
+      <!-- old women -->
+      <div class="oldwomen"></div>
+      <div class="oldwomen_bubble">
+        <img src="bubbles/speaking-bubble.png" alt="bubble">
+        <p>
+          As I said, my bladder has seen better days. Waiting in line is becoming quite uncomfortable, but at least
+          nowadays they do not only provide mens toilets in public buildings.
+        </p>
+      </div>
+      <!-- dandy -->
+      <div class="dandy"></div>
+      <div class="dandy_bubble">
+        <img src="bubbles/thinking-bubble.png" alt="bubble">
+        <p>
+          Anyhows I don't even know what I'm doing in the long long line to the women's restroom.
+          I have been accused of going to the "wrong" toilet already in both womens and mens restrooms. Sadly this
+          museum does not offer a safe restroom for awesome dandies like me.
+        </p>
+      </div>
+      <!-- two women -->
+      <div class="twowomen"></div>
+      <div class="twowomen_bubble">
+        <img src="bubbles/2-speaking-bubble.png" alt="bubble">
+        <p class="twowomen_1">
+          I think they should install more womens toilets.
+          it can't be that we have to wait so long
+          while men just can go in and do their business.
+        </p>
+        <p class="twowomen_2">
+          Actually I heard gender neutral toilets could not only provide safe toilets for gender non-conforming people,
+          but additionally regulate waiting times for everyone wanting to use the womens toilets.
+        </p>
+      </div>
+      <!-- pregnant women -->
+      <div class="pregnantwomen"></div>
+      <div class="pregnantwomen_bubble">
+        <img src="bubbles/speaking-bubble-flipped.png" alt="bubble">
+        <p>
+          I have to go more often since I'm pregnant and repetitively have to wait in line. I heard it gets even more
+          complicated with a child due to toilet stalls being too small to fit parents, their children, and don't even
+          think to bring the stroller! A friend told me she usually steps by the shopping center before going into town,
+          because they have
+          special family
+          restrooms.
+        </p>
+      </div>
+      <!-- toboggan women -->
+      <div class="tobogganwomen"></div>
+      <div class="tobogganwomen_bubble">
+        <img src="bubbles/speaking-bubble.png" alt="bubble">
+        <p>
+          Woooo, I made it! Once as a child I peed my pants in line because I was too scared to go to the men's room
+          or to ask if someone would let me go first!
+        </p>
+      </div>
+    </div>
+
+
+    <!-- toilet sign popup -->
+    <div class="element-popup" id="toilet-signs-popup">
+
+      <iframe src="toilet-signs/popup.html" frameborder="0"></iframe>
+
+      <button id="close-toilet-signs-popup" class="close-button">&times;</button>
+    </div>
+    <div class="overlay" id="toilet-signs-overlay"></div>
+
+    <!-- disability sign popup -->
+    <div class="element-popup" id="disability-sign-popup">
+
+      <iframe src="disability-sign/popup.html" frameborder="0"></iframe>
+
+      <button id="close-disability-sign-popup" class="close-button">&times;</button>
+    </div>
+
+    <div class="overlay" id="disability-sign-overlay"></div>
+
+    <!-- disability door popup -->
+    <div class="element-popup" id="door-disability-popup">
+
+      <iframe src="door-disability/popup.html" frameborder="0"></iframe>
+
+      <button id="close-door-disability-popup" class="close-button">&times;</button>
+    </div>
+
+    <div class="overlay" id="door-disability-overlay"></div>
+
+    <!-- men door popup -->
+    <div class="element-popup" id="door-men-popup">
+
+      <iframe src="door-men/popup.html" frameborder="0"></iframe>
+
+      <button id="close-door-men-popup" class="close-button">&times;</button>
+    </div>
+
+    <div class="overlay" id="door-men-overlay"></div>
+
+    <!-- imprint -->
+    <div class="imprint">
+      <button id="imprint-button" class="imprint-button">imprint</button>
+    </div>
+
+    <div class="imprint-popup" id="imprint-popup">
+
+      <iframe src="/Website/HOME-IMPRINT/imprint/popup.html" frameborder="0"></iframe>
+
+      <button id="close-imprint-popup" class="close-button">&times;</button>
+    </div>
+    <div id="imprint-overlay" class="overlay"></div>
+
+    <!-- home  -->
+    <div class="home">
+      <button id="home-button" class="home-button">?</button>
+    </div>
+
+    <div class="home-popup" id="home-popup">
+
+      <iframe src="/Website/HOME-IMPRINT/home/popup.html" frameborder="0"></iframe>
+
+      <button id="close-home-popup" class="close-button">&times;</button>
+    </div>
+    <div id="home-overlay" class="overlay"></div>
+
+  </div>
+
+
+  <script src="start.js"></script>
+</body>
+
+</html>
