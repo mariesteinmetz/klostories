@@ -1,0 +1,101 @@
+
+.popup-box {
+  display: grid;
+  grid-template-rows: 70px 530px;
+  width: 800px;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: solid;
+  border-color: #1100FF;
+  border-width: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #BDE1B4;
+}
+
+.popup-header .title {
+  margin-left: 35px;
+  margin-top: 10px;
+
+  font-family: "dm-sans-36pt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  color: #1100FF;
+}
+
+.popup-body {
+  width: 665px;
+  height: 530px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  background-color: white;
+  padding-left: 35px;
+  padding-right: 100px;
+  
+  
+  font-family: "dm-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: #1100FF;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+::-webkit-scrollbar {
+  width: 50px;
+}
+
+::-webkit-scrollbar-track {
+  border-style: solid;
+  border-top: none;
+  border-bottom: none;
+  border-color: #1100FF;
+  border-width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+background: #BDE1B4;
+border-radius: 25px;
+border: 0.5rem solid transparent;
+background-clip: content-box;
+cursor: pointer;
+}
+
+::-webkit-scrollbar-button {
+  height: 50px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #1100FF;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+::-webkit-scrollbar-button:vertical:decrement {
+  background: url(images/arrow-top.png) center no-repeat;
+  background-size: contain;
+  border-top: none;
+} 
+
+::-webkit-scrollbar-button:vertical:increment {
+  background: url(images/arrow-bottom.png) center no-repeat;
+  background-size: contain;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+
+border-bottom: none;
+}
