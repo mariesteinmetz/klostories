@@ -1,0 +1,1090 @@
+
+.disability-sign-button {display: none;}
+
+.eclipsefashion_men, .fittingroom_women, .private_women,
+.old_women, .pregnantwomen, .bartender, .marie, .policeman_women, .tobogganwomen, .powerofmusic_men, .wheelchair_women, .dog_women, .touristwomen, .periodwomen, .dandy, .twowomen {filter: drop-shadow(5px 5px 5px rgb(150, 150, 150));}
+
+.intro {
+  max-width: 350px;
+  
+  font-family: "dm-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16pt;
+  color: #1100FF;}
+
+/* imprint */
+
+.imprint {
+  position: fixed;
+  z-index: 1000;
+  bottom: 50px;
+  left: 30px;
+  width: 20px;
+  height: 10px;
+}
+
+.imprint-button {
+  border: none;
+  background-color: transparent;
+  height: 60px;
+  width: 130px;
+  padding: 10px;
+  cursor: pointer;
+
+  font-family: "dm-sans-36pt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  color: #1100FF;
+}
+
+.imprint-button:hover {
+  transform: scale(1.3);
+}
+
+/* about */
+
+.home {
+  position: fixed;
+  z-index: 1000;
+  top: 30px;
+  right: 30px;
+}
+
+.home-button {
+  border: none;
+  border-radius: 40px;
+  background-color: #DE048E;
+  height: 70px;
+  width: 70px;
+  padding-top: 8px;
+  cursor: pointer;
+
+  font-family: "dm-sans-36pt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  color: #F6E503;
+}
+
+.home-button:hover {
+  transform: scale(1.3);
+}
+
+/* people */
+
+/* private women */
+
+.private_women {
+  background-image: url("images/woman.png");
+  background-size: contain;
+  background-position: center;
+
+  position: relative;
+
+  width: 147px;
+  height: 150px;
+  z-index: 1999;
+
+  transition: 1s;
+  cursor: pointer;
+
+}
+
+.private_women_bubble {
+  position: absolute;
+
+  z-index: 3000;
+  left: 60px;
+  top: 25px;
+
+  width: 370px;
+  height: 170px; 
+
+  display: none;
+}
+
+.private_women_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 3000;
+}
+
+.private_women_bubble p {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+  z-index: 3000;
+}
+
+.private_women:hover{
+  transform: scale(1.2);
+}
+.private_women:hover > .private_women_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+} 
+
+/* eclipsefashion men */
+
+ .eclipsefashion_men {
+  background-image: url("images/eclipsefashion-men.png");
+
+  position: relative;
+ 
+  width: 55px;
+  height: 116px;
+  z-index: 2000;
+
+  transition: 1s;
+  cursor: pointer;
+
+  /* border: 3px solid red; */
+}
+
+.eclipsefashion_men_bubble {
+  position: absolute;
+
+  z-index: 2501;
+  left: 5px;
+  top: 10px;
+  
+  width: 300px;
+  height: 125px;
+  
+  display: none;
+}
+
+.eclipsefashion_men_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+
+  z-index: 2500;
+}
+
+.eclipsefashion_men_bubble p {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+
+  z-index: 3000;
+}
+
+.eclipsefashion_men:hover{
+  transform: scale(1.2);
+}
+.eclipsefashion_men:hover > .eclipsefashion_men_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+} 
+
+/* old women */
+.old_women {
+  background-image: url("images/old-women.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: relative;
+
+  width: 147px;
+  height: 150px;
+  z-index: 2502;
+
+  transition: 1s;
+  cursor: pointer;
+}
+
+.old_women_bubble {
+  position: absolute;
+
+  z-index: 2503;
+  left: 100px;
+  top: 30px;
+  
+  width: 300px;
+  height: 150px;
+  
+  display: none;
+}
+
+.old_women_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+
+  z-index: 3000;
+}
+
+.old_women_bubble p {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+
+  z-index: 3000;
+}
+
+.old_women:hover{
+  transform: scale(1.2);
+}
+.old_women:hover > .old_women_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+} 
+
+/* pregnant women */
+.pregnantwomen {
+  background-image: url("images/pregnant-women.png");
+/*   position: absolute;
+  left: 683px;
+  top: 488px; */
+  width: 68px;
+  height: 151px;
+  z-index: 1997;
+
+  transition: 1s;
+  cursor: pointer;
+}
+
+.pregnantwomen_bubble {
+  position: absolute;
+
+  z-index: 2503;
+  left: -290px;
+  top: -150px;
+  
+  width: 300px;
+  height: 150px;
+  
+  display: none;
+}
+
+.pregnantwomen_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+
+  z-index: 3000;
+}
+
+.pregnantwomen_bubble p {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+
+  z-index: 3000;
+}
+
+.pregnantwomen:hover{
+  transform: scale(1.2);
+}
+.pregnantwomen:hover > .pregnantwomen_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+} 
+
+/* bartender */
+.bartender {
+  background-image: url("images/bartender.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: relative;
+  flex-grow: (1);
+
+  width: 147px;
+  height: 200px;
+  z-index: 1999;
+
+  transition: 1s;
+  cursor: pointer;
+}
+
+.bartender_bubble {
+  position: absolute;
+
+  z-index: 3000;
+  left: 75px;
+  top: 25px;
+
+  width: 270px;
+  height: 170px; 
+
+  
+  display: none;
+}
+
+.bartender_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 3000;
+}
+
+.bartender_bubble p {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+  z-index: 3000;
+}
+
+.bartender:hover{
+  transform: scale(1.2);
+  z-index: 3001;
+  
+}
+.bartender:hover > .bartender_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+} 
+
+/* marie */
+.marie {
+  background-image: url("images/marie-pissing.png");
+  position:relative;
+  width: 140px;
+  height: 157px;
+  z-index: 1996;
+
+  transition: 1s;
+  cursor: pointer;
+}
+
+.marie_bubble {
+  position: absolute;
+
+  z-index: 3000;
+  left: -200px;
+  top: 20px;
+
+  width: 270px;
+  height: 170px; 
+
+  
+  display: none;
+}
+
+.marie_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 3000;
+}
+
+.marie_bubble p {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+  z-index: 3000;
+}
+
+.marie:hover{
+  transform: scale(1.2);
+  z-index: 3001;
+  
+}
+.marie:hover > .marie_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+} 
+
+/* policeman women */
+
+.policeman_women {
+  background-image: url("images/policeman-women.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: relative;
+
+  width: 147px;
+  height: 130px;
+  z-index: 1999;
+
+  transition: 1s;
+  cursor: pointer;
+
+}
+
+.policeman_women_bubble {
+  position: absolute;
+
+  z-index: 3000;
+  left: -110px;
+  top: -110px;
+
+  width: 170px;
+  height: 170px; 
+
+  
+  display: none;
+}
+
+.policeman_women_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 3000;
+}
+
+.policeman_women_bubble p {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+  z-index: 3000;
+}
+
+.policeman_women:hover{
+  transform: scale(1.2);
+  z-index: 3001;
+  
+}
+.policeman_women:hover > .policeman_women_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+} 
+
+/* fittingroom women */
+
+.fittingroom_women {
+  background-image: url("images/fittingroom-women-day.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: relative;
+  flex-grow: (1);
+
+  width: 147px;
+/*   height: 110px; */
+  z-index: 1999;
+
+  transition: 1s;
+  cursor: pointer;
+}
+
+.fittingroom_women_bubble {
+  position: absolute;
+
+  z-index: 3000;
+  left: 35px;
+  top: 25px;
+
+  width: 370px;
+  height: 170px; 
+
+  
+  display: none;
+}
+
+.fittingroom_women_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 3000;
+}
+
+.fittingroom_women_bubble p {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+  z-index: 3000;
+}
+
+.fittingroom_women:hover{
+  transform: scale(1.2);
+  z-index: 3001;
+  
+}
+.fittingroom_women:hover > .fittingroom_women_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+} 
+
+/* wheelchair women */
+.wheelchair_women {
+  background-image: url("images/wheelchair-women.png");
+  /* position: absolute;
+  left: 1080px;
+  top: 613px; */
+  width: 106px;
+  height: 77px;
+  z-index: 1996;
+
+  transition: 1s;
+  cursor: pointer;
+}
+
+.wheelchair_women_bubble {
+  position: absolute;
+
+  width: 450px;
+  height: 200px; 
+
+  z-index: 2100;
+  left: 675px;
+  top: 420px;
+  
+  display: none;
+}
+
+.wheelchair_women_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.wheelchair_women_bubble p {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.wheelchair_women:hover{
+  transform: scale(1.2);
+}
+.wheelchair_women:hover + .wheelchair_women_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+} 
+
+/* .wheelchair_women {
+  background-image: url("images/wheelchair-women.png");
+  position: absolute;
+  left: 1080px;
+  top: 613px;
+  width: 106px;
+  height: 77px;
+  z-index: 15;
+} */
+
+
+/* dog women */
+.dog_women {
+  background-image: url("images/dog-women.png");
+ /*  position: absolute;
+  left: 278px;
+  top: 611px; */
+  width: 84px;
+  height: 111px;
+  z-index: 1996;
+
+  transition: 1s;
+  cursor: pointer;
+}
+
+.dog_women_bubble {
+  position: absolute;
+
+  width: 250px;
+  height: 200px; 
+
+  z-index: 2100;
+  left: 340px;
+  top: 540px;
+  
+  display: none;
+}
+
+.dog_women_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.dog_women_bubble p {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.dog_women:hover{
+  transform: scale(1.2);
+}
+.dog_women:hover + .dog_women_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+} 
+
+/* .dog_women {
+  background-image: url("images/dog-women.png");
+  position: absolute;
+  left: 278px;
+  top: 611px;
+  width: 84px;
+  height: 111px;
+  z-index: 13;
+} */
+
+
+
+/* .marie_pissing {
+  background-image: url("images/marie-pissing.png");
+  position: absolute;
+  left: 1360px;
+  top: 754px;
+  width: 140px;
+  height: 157px;
+  z-index: 12;
+}  */
+
+.powerofmusic_men {
+  background-image: url("images/power-of-music-men.png");
+ /*  position: absolute;
+  left: 1432px;
+  top: 762px; */
+  width: 80px;
+  height: 172px;
+  z-index: 1996;
+
+  transition: 1s;
+  cursor: pointer;
+}
+
+.powerofmusic_men_bubble {
+  position: absolute;
+
+  width: 500px;
+  height: 340px; 
+
+  z-index: 2100;
+  left: 970px;
+  top: 490px;
+  
+  display: none;
+}
+
+.powerofmusic_men_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.powerofmusic_men_bubble p {
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.powerofmusic_men:hover{
+  transform: scale(1.2);
+}
+
+.powerofmusic_men:hover + .powerofmusic_men_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+} 
+
+/* .powerofmusic_men {
+  background-image: url("images/power-of-music-men.png");
+  position: absolute;
+  left: 1432px;
+  top: 762px;
+  width: 80px;
+  height: 172px;
+  z-index: 1500;
+} */
+
+
+
+/* .policeman_women {
+  background-image: url("images/policeman-women.png");
+  position: absolute;
+  left: 897px;
+  top: 605px;
+  width: 81px;
+  height: 160px;
+  z-index: 9;
+} */
+
+/* tourist women */
+.touristwomen {
+  background-image: url("images/tourist-women.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: relative;
+
+  width: 147px;
+  height: 150px;
+  z-index: 1999;
+
+  transition: 1s;
+  cursor: pointer;
+
+}
+
+.touristwomen_bubble {
+  position: absolute;
+
+  width: 300px;
+  height: 175px; 
+
+  z-index: 2100;
+  left: 370px;
+  top: 440px;
+  
+  display: none;
+}
+
+.touristwomen_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.touristwomen_bubble p {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.touristwomen:hover{
+  transform: scale(1.2);
+}
+.touristwomen:hover + .touristwomen_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+}
+
+/* period women */
+.periodwomen {
+  background-image: url("images/garland-of-musical-modes-women.png");
+
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: relative;/
+  width: 78px;
+  height: 150px;
+  z-index: 1998;
+
+  transition: 1s;
+  cursor: pointer;
+}
+
+.periodwomen_bubble {
+  position: absolute;
+
+  width: 500px;
+  height: 300px; 
+
+  z-index: 2100;
+  left: 430px;
+  top: 330px;
+  
+  display: none;
+}
+
+.periodwomen_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: conatin;
+}
+
+.periodwomen_bubble p {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.periodwomen:hover{
+  transform: scale(1.2);
+}
+.periodwomen:hover + .periodwomen_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+}
+
+/* dandy */
+.dandy {
+  background-image: url("images/dandy-nb.png");
+ /*  position: absolute;
+  left: 538px;
+  top: 544px; */
+  width: 84px;
+  height: 196px;
+  z-index: 1996;
+
+  transition: 1s;
+  cursor: pointer;
+}
+
+.dandy_bubble {
+  position: absolute;
+
+  width: 425px;
+  height: 375px; 
+
+  z-index: 2100;
+  left: 580px;
+  top: 255px;
+  
+  display: none;
+}
+
+.dandy_bubble img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: contain; */
+}
+
+.dandy_bubble p {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.dandy:hover{
+  transform: scale(1.2);
+}
+.dandy:hover + .dandy_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+}
+
+/* two women */
+.twowomen {
+  background-image: url("images/two-women.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: relative;
+  flex-grow: (1);
+  width: 150px;
+  height: 200px;
+  z-index: 1995;
+
+  transition: 1s;
+  cursor: pointer;
+}
+
+.twowomen_bubble {
+  position: absolute;
+
+  width: 800px;
+  height: 400px; 
+
+  z-index: 2100;
+  left: 270px;
+  top: 120px;
+  
+  display: none;
+}
+
+.twowomen_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.twowomen_1 {
+  position: absolute;
+  top: 68%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.twowomen_2 {
+  position: absolute;
+  top: 72%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.twowomen:hover{
+  transform: scale(1.2);
+}
+.twowomen:hover + .twowomen_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+}
+
+/* toboggan women */
+.tobogganwomen {
+  background-image: url("images/tobogan-laviniaschulz-women.png");
+  /* position: absolute;
+  left: 726px;
+  top: 456px; */
+  width: 116px;
+  height: 161px;
+  z-index: 1996;
+
+  transition: 1s;
+  cursor: pointer;
+}
+
+.tobogganwomen_bubble {
+  position: absolute;
+
+  width: 400px;
+  height: 200px; 
+
+  z-index: 2100;
+  left: 790px;
+  top: 290px;
+  
+  display: none;
+}
+
+.tobogganwomen_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.tobogganwomen_bubble p {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.tobogganwomen:hover{
+  transform: scale(1.2);
+}
+.tobogganwomen:hover + .tobogganwomen_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+}
