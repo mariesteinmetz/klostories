@@ -1,0 +1,367 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  z-index: 9999;
+}
+
+::-webkit-scrollbar {
+  width: 17px;
+  height: 17px;
+}
+
+::-webkit-scrollbar-track {
+  border-style: none;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background-color: black;
+  border: 3px solid transparent;
+  background-clip: content-box;
+  cursor: pointer;
+}
+
+.floor {
+  background-image: url("/Website/SEMI-PRIVATE/GAME-OVER/images/background/floor.png");
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 1080px;
+  z-index: 15;
+}
+
+.pee {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 1080px;
+  z-index: 19;
+}
+.pee_2 {
+  background-image: url("/Website/SEMI-PRIVATE/GAME-OVER/images/background/pee_2.png");
+  position: absolute;
+  left: 198px;
+  top: 91px;
+  width: 1430px;
+  height: 809px;
+  z-index: 18;
+}
+.pee_1 {
+  background-image: url("/Website/SEMI-PRIVATE/GAME-OVER/images/background/pee_1.png");
+  opacity: 0.722;
+  position: absolute;
+  left: 198px;
+  top: 91px;
+  width: 1430px;
+  height: 809px;
+  z-index: 17;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  width: 385px;
+  position: absolute;
+  left: 750px;
+  top: 300px;
+  z-index: 1000;
+}
+
+.info-button, .continue-button {
+  width: 385px;
+  height: 120px;
+  background-color: white;
+  border: 5px solid #DE048E;
+  border-radius: 60px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.continue-button:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 0 #DE048E;
+}
+
+.info-button:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 0 #DE048E;
+}
+
+.i-circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: #DE048E;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  font-family: "dm-sans-36pt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  color: #F6E503;
+}
+
+.i-title {
+  margin-left: 20px;
+  width: 200px;
+
+  font-family: "dm-sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  font-style: normal;
+  color: #DE048E;
+}
+
+.game-button {
+  height: 100px;
+  width: 100px;
+  background-color: #DE048E;
+  border-radius: 50px;
+  background-image: url(/Website/SEMI-PRIVATE/GAME-OVER/images/background/continue-game.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.game-title {
+  margin-left: 20px;
+  width: 200px;
+
+  font-family: "dm-sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  font-style: normal;
+  color: #DE048E;
+}
+
+
+
+
+
+
+
+
+
+
+.paruresis {
+    background-image: url(/Website/SEMI-PRIVATE/GAME-OVER/images/people/paruresis.png);
+    position: absolute;
+    left: 1196px;
+    top: 69px;
+    width: 307px;
+    height: 639px;
+    z-index: 58;
+}
+
+.speaking-bubble {
+  background-image: url(/Website/SEMI-PRIVATE/GAME-OVER/images/Bubbles/paruresis.png);
+  position: absolute;
+  left: 1484px;
+  top: 106px;
+  width: 391px;
+  height: 781px;
+  z-index: 65;
+}
+
+.text {
+  /*border: solid red;*/
+  margin-left: 75px;
+  margin-top: 40px;
+  height: 503px;
+  width: 272px;
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.title {
+  font-family: "captain-comic", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 17px;
+  padding: 0;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.bold-italic {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+.imprint {
+  position: fixed;
+  z-index: 1000;
+  bottom: 50px;
+  left: 30px;
+  width: 20px;
+  height: 10px;
+}
+
+.imprint-button {
+  border: none;
+  background-color: transparent;
+  height: 60px;
+  width: 130px;
+  padding: 10px;
+  cursor: pointer;
+
+  font-family: "dm-sans-36pt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  color: #1100FF;
+}
+
+.imprint-button:hover {
+  transform: scale(1.3);
+}
+
+.home {
+  position: fixed;
+  z-index: 1000;
+  top: 30px;
+  right: 30px;
+}
+
+.home-button {
+  border: none;
+  border-radius: 40px;
+  background-color: transparent;
+  height: 70px;
+  width: 70px;
+  padding-top: 8px;
+  cursor: pointer;
+
+  font-family: "dm-sans-36pt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  color: #F6E503;
+}
+
+.home-button:hover {
+  transform: scale(1.3);
+}
+.overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.overlay.active {
+  pointer-events: all;
+  opacity: 1;
+}
+
+.element-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 5px solid #DE048E;
+  height: 600px;
+  width: 800px;
+  border-radius: 15px;
+  box-shadow: 15px 15px 0px #DE048E;
+  z-index: 1500;
+}
+
+.imprint-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 5px solid #1100FF;
+  height: 600px;
+  width: 800px;
+  border-radius: 15px;
+  box-shadow: 15px 15px 0px #1100FF;
+  z-index: 1500;
+}
+
+.home-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 5px solid #DE048E;
+  height: 600px;
+  width: 800px;
+  border-radius: 15px;
+  box-shadow: 15px 15px 0px #DE048E;
+  z-index: 1500;
+}
+
+iframe {
+  flex: 1;
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+.imprint-popup.active {
+  transform: translate(-50%, -50%) scale(1); /*we use scale and not display so we can transition smoothly*/
+}
+
+.home-popup.active {
+  transform: translate(-50%, -50%) scale(1); /*we use scale and not display so we can transition smoothly*/
+}
+
+.element-popup.active {
+  transform: translate(-50%, -50%) scale(1); /*we use scale and not display so we can transition smoothly*/
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  background: none;
+  height: 70px;
+  border: none;
+  font-family: "dm-sans-36pt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  color: #1100FF;
+  cursor: pointer;
+  transition: hover 0.6s;
+}
+
+.close-button:hover {
+  transform: scale(1.3);
+}
