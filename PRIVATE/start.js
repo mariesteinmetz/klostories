@@ -52,13 +52,13 @@ semiPublicButton.addEventListener('click', (event) => {
 const shameMagButton = document.getElementById('shame-mag-button');
 
 shameMagButton.addEventListener('click', (event) => {
-  window.open('/Website/PRIVATE/00_START/shame-mag/shame-mag.pdf', '_blank');
+  window.open('shame-mag/shame-mag.pdf', '_blank');
 });
 
 const peepoopButton = document.getElementById('peepoop-button'); 
 
 peepoopButton.addEventListener('click', (event) => {
-  window.open('/Website/PRIVATE/00_START/peepooperiod/peepooperiod.pdf', '_blank');
+  window.open('peepooperiod/peepooperiod.pdf', '_blank');
 });
 
 
