@@ -76,7 +76,7 @@ closeConferencePopup.addEventListener('click', (event) => {
 const privateButton = document.getElementById('private-button'); 
 
 privateButton.addEventListener('click', (event) => { 
-  window.location.href = '/Website/PRIVATE/00_START/start.html';
+  window.location.href = '../PRIVATE/start.html';
 });
 
 
