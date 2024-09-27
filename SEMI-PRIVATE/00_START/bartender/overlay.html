@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<link rel="stylesheet" href="bartender.css">
+
+<link rel="stylesheet" href="https://use.typekit.net/cmr4tqt.css">
+
+  </head>
+
+  <body>
+    <div class="box">
+      <div class="image"></div>
+
+      <div id="text-00" class="text-section">
+        <div class="body"><p class="title">Welcome!</p>
+          <p>I am the <span class="italic-bold">bartender</span> of this café. My job is to take care of the incoming clients and keep the space clean.</p></div>
+
+      </div>
+
+      <div id="text-01" class="text-section hidden">
+        <div class="body">
+          <p>My <span class="italic-bold">boss</span> lives upstairs.</p>
+     
+          <p>They supervise every step on mine and get very <span class="italic-bold">angry</span> if I don't work the way they want me to. I get screamed at alot...</p>
+          </div>
+              
+      </div>
+
+      <div id="text-02" class="text-section hidden">
+        <div class="body">
+          <p style="margin-bottom: 5px;">Oh! A client just arrived!</p>  
+        <p>You can help me with work for the day, let's go ask the lady what she wants.</p></div>
+
+      </div>
+
+      <div id="old-lady" class="old-lady hidden"><button class="old-lady-button" id="old-lady-button"></button>
+        <div id="old-lady-bubble" class="old-lady-bubble hidden">
+        <div class="old-lady-bubble-text">
+          <p class="old-lady-title">good afternoon <span class="italic">sir</span> !</p>
+          <p class="old-lady-text">Would it be possible to use your <span class="span-bold">powder room</span> please?</p>
+        </div>
+      </div>
+      </div>
+
+      <div id="text-03" class="text-section hidden">
+        <div class="body">
+          <p>Well... What do you think, should I let her use the facilities?</p>
+
+        <div class="decision-buttons">
+          <button id="old-lady-yes">yes</button>
+          <button id="old-lady-no">no</button>
+        </div>
+          </div>
+        </div>
+
+      
+
+      <div id="text-04" class="text-section hidden">
+        <div class="body">
+          <p>You're welcome!</p> 
+          <p>I hope my boss won't mind...</p>
+        </div>
+      </div>
+
+      <div id="text-05" class="text-section hidden">
+        <div class="body">
+          <p>Oh no...</p> 
+          <p>I don't understand what would be so wrong to let people use our facilities.</p>
+        </div>
+      </div>
+
+      <div id="text-06" class="text-section hidden">
+        <div class="body">
+          
+        </div>
+      </div>
+
+      
+      <div class="arrow"><button id="arrow-left" class="arrow-left"></button>
+        <button id="arrow-right" class="arrow-right"></button></div>
+      
+    </div>
+
+    <div id="old-lady-small" class="old-lady-small hidden">
+
+      <div id="old-lady-small-bubble" class="old-lady-small-bubble">
+      <div class="old-lady-small-bubble-text">
+
+        <p class="old-lady-small-text">Thank you! 
+        It's challenging with age to go out and find adequate toilets.</p>
+      </div>
+    </div>
+    </div>
+
+    <div id="old-lady-boss" class="angry-bubble hidden">
+      <div class="angry-title">What ?!</div>
+      <div class="angry-text">We are not a public toilet! Now <span class="italic-bold">everybody</span> will want to use our facilities all the time.</div>
+    </div>
+
+    <div id="chair" class="chair hidden"></div>
+
+    <div id="old-lady-gameover-popup" class="old-lady-gameover-popup hidden">
+      <iframe src="/Website/SEMI-PRIVATE/GAME-OVER/01_old-lady/game-over.html" frameborder="0"></iframe>
+    </div>
+    
+  
+    <script src="bartender.js"></script>
+
+  </body>
+</html>
