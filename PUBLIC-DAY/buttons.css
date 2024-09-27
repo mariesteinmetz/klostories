@@ -1,0 +1,632 @@
+/* imprint */
+.imprint {
+  position: fixed;
+  z-index: 1000;
+  bottom: 50px;
+  left: 30px;
+  width: 20px;
+  height: 10px;
+}
+
+.imprint-button {
+  border: none;
+  background-color: transparent;
+  height: 60px;
+  width: 130px;
+  padding: 10px;
+  cursor: pointer;
+
+  font-family: "dm-sans-36pt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  color: #1100FF;
+}
+
+.imprint-button:hover {
+  transform: scale(1.3);
+}
+
+/* about */
+
+.home {
+  position: fixed;
+  z-index: 1000;
+  top: 30px;
+  right: 30px;
+}
+
+.home-button {
+  border: none;
+  border-radius: 40px;
+  background-color: #DE048E;
+  height: 70px;
+  width: 70px;
+  padding-top: 8px;
+  cursor: pointer;
+
+  font-family: "dm-sans-36pt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  color: #F6E503;
+}
+
+.home-button:hover {
+  transform: scale(1.3);
+}
+
+/* elemente */
+/* vespasienne */
+.vespasienne {
+  position: absolute;
+  z-index: 5;
+  left: 1207px;
+  top: 581px;
+}
+
+.vespasienne-button {
+  border: none;
+  width: 75px;
+  height: 158px;
+  transition: 1s;
+  background-color: transparent;
+  cursor: pointer;
+  background-image: url(images/vespesienne-paris.png);
+}
+
+.vespasienne:hover {
+  transform: scale(1.2);
+}
+
+/* people */
+
+/* eclipsefashion men */
+
+ .eclipsefashion_men {
+  background-image: url("images/eclipsefashion-men.png");
+  position: absolute;
+  left: 362px;
+  top: 605px;
+  width: 55px;
+  height: 116px;
+  z-index: 1996;
+
+  transition: 1s;
+  cursor: help;
+}
+
+.eclipsefashion_men_bubble {
+  position: absolute;
+
+  width: 300px;
+  height: 150px; 
+
+  z-index: 2100;
+  left: 380px;
+  top: 460px;
+  
+  display: none;
+}
+
+.eclipsefashion_men_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.eclipsefashion_men_bubble p {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.eclipsefashion_men:hover{
+  transform: scale(1.2);
+}
+.eclipsefashion_men:hover + .eclipsefashion_men_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+} 
+
+/* fittingroom women */
+
+.fittingroom_women {
+  background-image: url("images/fittingroom-women-day.png");
+  position: absolute;
+  left: 548px;
+  top: 659px;
+  width: 78px;
+  height: 204px;
+  z-index: 1996;
+
+  transition: 1s;
+  cursor: help;
+}
+
+.fittingroom_women_bubble {
+  position: absolute;
+
+  width: 400px;
+  height: 250px; 
+
+  z-index: 1900;
+  left: 590px;
+  top: 430px;
+  
+  display: none;
+}
+
+.fittingroom_women_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.fittingroom_women_bubble p {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.fittingroom_women:hover{
+  transform: scale(1.2);
+}
+.fittingroom_women:hover + .fittingroom_women_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+} 
+
+/* wheelchair women */
+.wheelchair_women {
+  background-image: url("images/wheelchair-women.png");
+  position: absolute;
+  left: 1080px;
+  top: 613px;
+  width: 106px;
+  height: 77px;
+  z-index: 1996;
+
+  transition: 1s;
+  cursor: help;
+}
+
+.wheelchair_women_bubble {
+  position: absolute;
+
+  width: 500px;
+  height: 300px; 
+
+  z-index: 2100;
+  left: 595px;
+  top: 340px;
+  
+  display: none;
+}
+
+.wheelchair_women_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.wheelchair_women_bubble p {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.wheelchair_women:hover{
+  transform: scale(1.2);
+}
+.wheelchair_women:hover + .wheelchair_women_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+} 
+
+/* .wheelchair_women {
+  background-image: url("images/wheelchair-women.png");
+  position: absolute;
+  left: 1080px;
+  top: 613px;
+  width: 106px;
+  height: 77px;
+  z-index: 15;
+} */
+
+/* old women */
+.old_women {
+  background-image: url("images/old-women.png");
+  position: absolute;
+  left: 803px;
+  top: 635px;
+  width: 40px;
+  height: 133px;
+  z-index: 1996;
+
+  transition: 1s;
+  cursor: help;
+}
+
+.old_women_bubble {
+  position: absolute;
+
+  width: 450px;
+  height: 200px; 
+
+  z-index: 2100;
+  left: 400px;
+  top: 440px;
+  
+  display: none;
+}
+
+.old_women_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.old_women_bubble p {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.old_women:hover{
+  transform: scale(1.2);
+}
+.old_women:hover + .old_women_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+} 
+
+/* .old_women {
+  background-image: url("images/old-women.png");
+  position: absolute;
+  left: 803px;
+  top: 635px;
+  width: 40px;
+  height: 133px;
+  z-index: 14;
+} */
+
+/* dog women */
+.dog_women {
+  background-image: url("images/dog-women.png");
+  position: absolute;
+  left: 278px;
+  top: 611px;
+  width: 84px;
+  height: 111px;
+  z-index: 1996;
+
+  transition: 1s;
+  cursor: help;
+}
+
+.dog_women_bubble {
+  position: absolute;
+
+  width: 300px;
+  height: 200px; 
+
+  z-index: 2100;
+  left: 330px;
+  top: 515px;
+  
+  display: none;
+}
+
+.dog_women_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.dog_women_bubble p {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.dog_women:hover{
+  transform: scale(1.2);
+}
+.dog_women:hover + .dog_women_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+} 
+
+/* .dog_women {
+  background-image: url("images/dog-women.png");
+  position: absolute;
+  left: 278px;
+  top: 611px;
+  width: 84px;
+  height: 111px;
+  z-index: 13;
+} */
+
+/* marie */
+.marie {
+  background-image: url("images/marie-pissing.png");
+  position: absolute;
+  left: 1360px;
+  top: 754px;
+  width: 140px;
+  height: 157px;
+  z-index: 1996;
+
+  transition: 1s;
+  cursor: help;
+}
+
+.marie_bubble {
+  position: absolute;
+
+  width: 1000px;
+  height: 500px; 
+
+  z-index: 2100;
+  left: 940px;
+  top: 260px;
+  
+  display: none;
+}
+
+.marie_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.marie_1 {
+  position: absolute;
+  top: 68%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.marie_2 {
+  position: absolute;
+  top: 72%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.marie:hover{
+  transform: scale(1.2);
+}
+.marie:hover + .marie_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+} 
+.marie_pissing {
+  background-image: url("images/marie-pissing.png");
+  position: absolute;
+  left: 1360px;
+  top: 754px;
+  width: 140px;
+  height: 157px;
+  z-index: 12;
+} 
+
+/* welten*/
+
+/* semi-public */
+
+ .museum-poster {
+  position: absolute;
+  z-index: 500;
+  /* left: 1360px;
+  top: 639px; */
+  left: 1349px;
+  top: 634px;
+  
+}
+
+.museum-poster-button {
+  border: none;
+ /*  width: 59px;
+  height: 103px; */
+  width: 46px;
+  height: 90px;
+  transition: 1s;
+  background-color: transparent;
+  cursor: pointer;
+  background-image: url(images/museum-poster.png);
+  background-repeat: no-repeat;
+}
+
+.museum-poster-button:hover {
+  transform: scale(1.2);
+}
+
+/* semi-private */
+/* .public_clock {
+  background-image: url("images/public-clock.png");
+  position: absolute;
+  left: 1738px;
+  top: 511px;
+  width: 97px;
+  height: 360px;
+  z-index: 8;
+} */
+
+.clock {
+  position: absolute;
+  z-index: 1000;
+  left: 1738px;
+  top: 511px;
+}
+
+.clock-button {
+  border: none;
+  width: 97px;
+  height: 360px;
+  transition: 1s;
+  background-color: transparent;
+  cursor: pointer;
+  background-image: url(images/public-clock.png);
+}
+
+.clock-button:hover {
+  transform: scale(1.1);
+}
+
+/* private */
+/* .window {
+  background-image: url("images/window.png");
+  position: absolute;
+  left: 1342px;
+  top: 492px;
+  width: 54px;
+  height: 60px;
+  z-index: 9;
+} */
+
+.window {
+  position: absolute;
+  z-index: 1000;
+  left: 1342px;
+  top: 492px;
+}
+
+.window-button {
+  border: none;
+  width: 54px;
+  height: 60px;
+  transition: 1s;
+  background-color: transparent;
+  cursor: pointer;
+
+  background-image: url(images/window.png);
+}
+
+.window-button:hover {
+  transform: scale(1.2);
+}
+
+.cafe-achteck {
+  position: absolute;
+  left: 1473px;
+  top: 560px;
+  z-index: 7;
+}
+
+.cafe-achteck-button {
+  background-image: url("images/cafe-achteck-berlin.png");
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 187px;
+  height: 364px;
+  transition: 1s;
+}
+
+.cafe-achteck-button:hover {
+  transform: scale(1.2);
+}
+
+/* night */
+.sun {
+  position: fixed;
+  z-index: 900;
+  left: 250px;
+  top: 25px;
+}
+
+.sun-rope {
+  background-image: url("images/sun_rope.png");
+  position: absolute;
+  /* left: 400px; */
+  left: 70px;
+  top: -25px;
+  width: 13px;
+  height: 34px;
+  z-index: 900;
+}
+
+.sun-button {
+  border: none;
+  width: 154px;
+  height: 160px;
+  transition: 1s;
+  background-color: transparent;
+  cursor: pointer;
+  background-image: url(images/sun.png);
+}
+
+@keyframes swinging {
+  0% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
+.sun-button:hover {
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-animation: swinging 2s ease-in-out forwards infinite;
+  animation: swinging 2s ease-in-out forwards infinite;
+}
