@@ -1,0 +1,761 @@
+/* imprint */
+.imprint {
+  position: fixed;
+  z-index: 1000;
+  bottom: 50px;
+  left: 30px;
+  width: 20px;
+  height: 10px;
+}
+
+.imprint-button {
+  border: none;
+  background-color: transparent;
+  height: 60px;
+  width: 130px;
+  padding: 10px;
+  cursor: pointer;
+
+  font-family: "dm-sans-36pt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  color: #1100FF;
+}
+
+.imprint-button:hover {
+  transform: scale(1.3);
+}
+
+/* about */
+
+.home {
+  position: fixed;
+  z-index: 1000;
+  top: 30px;
+  right: 30px;
+}
+
+.home-button {
+  border: none;
+  border-radius: 40px;
+  background-color: #DE048E;
+  height: 70px;
+  width: 70px;
+  padding-top: 8px;
+  cursor: pointer;
+
+  font-family: "dm-sans-36pt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  color: #F6E503;
+}
+
+.home-button:hover {
+  transform: scale(1.3);
+}
+
+/* elemente-------------------------------------------- */
+/* toilet signs */
+.toilet-signs {
+  position: absolute;
+  z-index: 1000;
+  left: 881px;
+  top: 446px;
+}
+
+.toilet-signs-button {
+  border: none;
+  width: 151px;
+  height: 117px;
+  transition: 1s;
+  background-color: transparent;
+  cursor: pointer;
+  background-image: url(images/toilet-signs.png);
+}
+
+.toilet-signs-button:hover {
+  transform: scale(1.2);
+}
+/* disability sign */
+.disability-sign {
+  position: absolute;
+  z-index: 1000;
+  left: 251px;
+  top: 451px;
+}
+
+.disability-sign-button {
+  border: none;
+  width: 100px;
+  height: 135px;
+  transition: 1s;
+  background-color: transparent;
+  cursor: pointer;
+  background-image: url(images/sign-disability.png);
+}
+
+.disability-sign-button:hover {
+  transform: scale(1.2);
+}
+
+/* doors */
+/* door disability */
+.door-disability {
+  position: absolute;
+  z-index: 1000;
+  left: 373px;
+  top: 398px;
+}
+
+.door-disability-button {
+  border: none;
+  width: 142px;
+  height: 302px;
+  transition: 1s;
+  background-color: transparent;
+  cursor: pointer;
+  background-image: url(images/door-disability.png);
+}
+
+.door-disability-button:hover {
+  transform: scale(1.2);
+}
+
+/*  .door_disability {
+  background-image: url("images/door-disability.png");
+  position: absolute;
+  left: 373px;
+  top: 398px;
+  width: 142px;
+  height: 302px;
+  z-index: 9;
+} */
+
+/* womens door */
+.door-women {
+  position: absolute;
+  z-index: 1000;
+  left: 778px;
+  top: 427px;
+}
+
+.door-women-button {
+  border: none;
+  width: 104px;
+  height: 182px;
+  transition: 1s;
+  background-color: transparent;
+  cursor: pointer;
+  background-image: url(images/womens-door.png);
+}
+
+.door-women-button:hover {
+  transform: scale(1.2);
+}
+
+/* .womens_door {
+  background-image: url("images/womens-door.png");
+  position: absolute;
+  left: 778px;
+  top: 427px;
+  width: 104px;
+  height: 182px;
+  z-index: 7;
+}  */
+
+/* mens door */
+.door-men {
+  position: absolute;
+  z-index: 1000;
+  left: 1028px;
+  top: 429px;
+}
+
+.door-men-button {
+  border: none;
+  width: 86px;
+  height: 180px;
+  transition: 1s;
+  background-color: transparent;
+  cursor: pointer;
+  background-image: url(images/mens-door.png);
+}
+
+.door-men-button:hover {
+  transform: scale(1.2);
+}
+
+/*
+.mens_door {
+  background-image: url("images/mens-door.png");
+  position: absolute;
+  left: 1028px;
+  top: 429px;
+  width: 86px;
+  height: 180px;
+  z-index: 8;
+}*/
+
+/* people --------------------------------------------- */
+/* reading women */
+.readingwomen {
+  background-image: url("images/reading-women.png");
+  position: absolute;
+  left: 91px;
+  top: 539px;
+  width: 172px;
+  height: 297px;
+  z-index: 2000;
+
+  transition: 1s;
+  cursor: help;
+}
+
+.readingwomen_bubble {
+  position: absolute;
+
+  width: 400px;
+  height: 200px; 
+
+  z-index: 2100;
+  left: 200px;
+  top: 380px;
+  
+  display: none;
+  
+}
+
+.readingwomen_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.readingwomen_bubble p {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.readingwomen:hover{
+  transform: scale(1.2);
+}
+.readingwomen:hover + .readingwomen_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+}
+
+/* tourist women */
+.touristwomen {
+  background-image: url("images/tourist-women.png");
+  position: absolute;
+  left: 263px;
+  top: 573px;
+  width: 114px;
+  height: 230px;
+  z-index: 1999;
+
+  transition: 1s;
+  cursor: help;
+}
+
+.touristwomen_bubble {
+  position: absolute;
+
+  width: 300px;
+  height: 175px; 
+
+  z-index: 2100;
+  left: 370px;
+  top: 440px;
+  
+  display: none;
+}
+
+.touristwomen_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.touristwomen_bubble p {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.touristwomen:hover{
+  transform: scale(1.2);
+}
+.touristwomen:hover + .touristwomen_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+}
+
+/* period women */
+.periodwomen {
+  background-image: url("images/garland-of-musical-modes-women.png");
+  position: absolute;
+  left: 381px;
+  top: 571px;
+  width: 78px;
+  height: 218px;
+  z-index: 1998;
+
+  transition: 1s;
+  cursor: help;
+}
+
+.periodwomen_bubble {
+  position: absolute;
+
+  width: 500px;
+  height: 300px; 
+
+  z-index: 2100;
+  left: 430px;
+  top: 330px;
+  
+  display: none;
+}
+
+.periodwomen_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: conatin;
+}
+
+.periodwomen_bubble p {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.periodwomen:hover{
+  transform: scale(1.2);
+}
+.periodwomen:hover + .periodwomen_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+}
+
+/* old women */
+.oldwomen {
+  background-image: url("images/old-women.png");
+  position: absolute;
+  left: 482px;
+  top: 559px;
+  width: 66px;
+  height: 216px;
+  z-index: 1997;
+
+  transition: 1s;
+  cursor: help;
+}
+
+.oldwomen_bubble {
+  position: absolute;
+
+  width: 400px;
+  height: 200px; 
+
+  z-index: 2100;
+  left: 550px;
+  top: 370px;
+  
+  display: none;
+}
+
+.oldwomen_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.oldwomen_bubble p {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.oldwomen:hover{
+  transform: scale(1.2);
+}
+.oldwomen:hover + .oldwomen_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+}
+
+/* dandy */
+.dandy {
+  background-image: url("images/dandy-nb.png");
+  position: absolute;
+  left: 538px;
+  top: 544px;
+  width: 84px;
+  height: 196px;
+  z-index: 1996;
+
+  transition: 1s;
+  cursor: help;
+}
+
+.dandy_bubble {
+  position: absolute;
+
+  width: 425px;
+  height: 375px; 
+
+  z-index: 2100;
+  left: 580px;
+  top: 255px;
+  
+  display: none;
+}
+
+.dandy_bubble img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: contain; */
+}
+
+.dandy_bubble p {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.dandy:hover{
+  transform: scale(1.2);
+}
+.dandy:hover + .dandy_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+}
+
+/* two women */
+.twowomen {
+  background-image: url("images/annoyed-women.png");
+  position: absolute;
+  left: 609px;
+  top: 518px;
+  width: 101px;
+  height: 169px;
+  z-index: 1995;
+
+  transition: 1s;
+  cursor: help;
+}
+
+.twowomen_bubble {
+  position: absolute;
+
+  width: 800px;
+  height: 400px; 
+
+  z-index: 2100;
+  left: 270px;
+  top: 120px;
+  
+  display: none;
+}
+
+.twowomen_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.twowomen_1 {
+  position: absolute;
+  top: 68%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.twowomen_2 {
+  position: absolute;
+  top: 72%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.twowomen:hover{
+  transform: scale(1.2);
+}
+.twowomen:hover + .twowomen_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+}
+
+/* pregnant women */
+.pregnantwomen {
+  background-image: url("images/pregnant-women.png");
+  position: absolute;
+  left: 683px;
+  top: 488px;
+  width: 68px;
+  height: 151px;
+  z-index: 1997;
+
+  transition: 1s;
+  cursor: help;
+}
+
+.pregnantwomen_bubble {
+  position: absolute;
+
+  width: 550px;
+  height: 300px; 
+
+  z-index: 2100;
+  left: 140px;
+  top: 230px;
+  
+  display: none;
+}
+
+.pregnantwomen_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.pregnantwomen_bubble p {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.pregnantwomen:hover{
+  transform: scale(1.2);
+}
+.pregnantwomen:hover + .pregnantwomen_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+}
+
+/* toboggan women */
+.tobogganwomen {
+  background-image: url("images/tobogan-laviniaschulz-women.png");
+  position: absolute;
+  left: 726px;
+  top: 456px;
+  width: 116px;
+  height: 161px;
+  z-index: 1996;
+
+  transition: 1s;
+  cursor: help;
+}
+
+.tobogganwomen_bubble {
+  position: absolute;
+
+  width: 400px;
+  height: 200px; 
+
+  z-index: 2100;
+  left: 790px;
+  top: 290px;
+  
+  display: none;
+}
+
+.tobogganwomen_bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.tobogganwomen_bubble p {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  text-align: center;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.tobogganwomen:hover{
+  transform: scale(1.2);
+}
+.tobogganwomen:hover + .tobogganwomen_bubble {
+  display: block;
+  /* transition: 1s ease-in; */
+}
+
+/* 
+.dandy_nb {
+  background-image: url("images/dandy-nb.png");
+  position: absolute;
+  left: 586px;
+  top: 471px;
+  width: 84px;
+  height: 196px;
+  z-index: 13;
+}
+.annoyed_women {
+  background-image: url("images/annoyed-women.png");
+  position: absolute;
+  left: 622px;
+  top: 467px;
+  width: 101px;
+  height: 169px;
+  z-index: 12;
+}
+.pregnant_women {
+  background-image: url("images/pregnant-women.png");
+  position: absolute;
+  left: 694px;
+  top: 467px;
+  width: 68px;
+  height: 151px;
+  z-index: 11;
+}
+.tobogan_laviniaschulz_women {
+  background-image: url("images/tobogan-laviniaschulz-women.png");
+  position: absolute;
+  left: 726px;
+  top: 456px;
+  width: 116px;
+  height: 161px;
+  z-index: 10;
+} */
+
+/* welten ----------------------------------------------*/
+
+.mountains {
+  position: absolute;
+  z-index: 500;
+  left: 904px;
+  top: 286px;
+}
+
+.mountains-button {
+  border: none;
+  width: 507px;
+  height: 304px;
+  transition: 1s;
+  background-color: transparent;
+  cursor: pointer;
+
+  background-image: url(images/mountains.png);
+  background-repeat: no-repeat;
+}
+
+.mountains-button:hover {
+  transform: scale(1.05);
+}
+
+.clock {
+  position: absolute;
+  z-index: 1000;
+  left: 1130px;
+  top: 571px;
+}
+
+.clock-button {
+  border: none;
+  width: 107px;
+  height: 160px;
+  transition: 1s;
+  background-color: transparent;
+  cursor: pointer;
+  background-image: url(images/clock-semipublic.png);
+}
+
+.clock-button:hover {
+  transform: scale(1.2);
+}
+
+.window {
+  position: absolute;
+  z-index: 1000;
+  left: 1424px;
+top: 645px;
+}
+
+.window-button {
+  border: none;
+  width: 107px;
+  height: 56px;
+  transition: 1s;
+  background-color: transparent;
+  cursor: pointer;
+
+  background-image: url(images/window-semipublic.png);
+}
+
+.window-button:hover {
+  transform: scale(1.2);
+}
