@@ -60,7 +60,7 @@ closeHomePopup.addEventListener('click', (event) => {
 //* private */
 const privateButton = document.getElementById('private-button'); 
 
-privateButton.addEventListener('click', (event) => {window.location.href = 'PRIVATE/00_START/start.html';
+privateButton.addEventListener('click', (event) => {window.location.href = 'PRIVATE/start.html';
 });
 
 /* public-day */
@@ -70,16 +70,16 @@ const publicDayButton3 = document.getElementById('public-day-button-3');
 const publicDayButton4 = document.getElementById('public-day-button-4'); 
 
 publicDayButton.addEventListener('click', (event) => { 
-  window.location.href = '/Website/PUBLIC-DAY/start.html';
+  window.location.href = 'PUBLIC-DAY/start.html';
 });
 publicDayButton2.addEventListener('click', (event) => { 
-  window.location.href = '/Website/PUBLIC-DAY/start.html';
+  window.location.href = 'PUBLIC-DAY/start.html';
 });
 publicDayButton3.addEventListener('click', (event) => { 
-  window.location.href = '/Website/PUBLIC-DAY/start.html';
+  window.location.href = 'PUBLIC-DAY/start.html';
 });
 publicDayButton4.addEventListener('click', (event) => { 
-  window.location.href = '/Website/PUBLIC-DAY/start.html';
+  window.location.href = 'PUBLIC-DAY/start.html';
 });
 
 /* semi-private */
@@ -88,13 +88,13 @@ const semiPrivateButton2 = document.getElementById('semi-private-button-2');
 const semiPrivateButton3 = document.getElementById('semi-private-button-3'); 
 
 semiPrivateButton.addEventListener('click', (event) => { 
-  window.location.href = '/Website/SEMI-PRIVATE/00_START/start.html';
+  window.location.href = 'SEMI-PRIVATE/00_START/start.html';
 });
 semiPrivateButton2.addEventListener('click', (event) => { 
-  window.location.href = '/Website/SEMI-PRIVATE/00_START/start.html';
+  window.location.href = 'SEMI-PRIVATE/00_START/start.html';
 });
 semiPrivateButton3.addEventListener('click', (event) => { 
-  window.location.href = '/Website/SEMI-PRIVATE/00_START/start.html';
+  window.location.href = 'SEMI-PRIVATE/00_START/start.html';
 });
 
 /* semi-public */
@@ -105,19 +105,19 @@ const semiPublicButton4 = document.getElementById('semi-public-button-4');
 const semiPublicButton5 = document.getElementById('semi-public-button-5'); 
 
 semiPublicButton.addEventListener('click', (event) => { 
-  window.location.href = '/Website/SEMI-PUBLIC/start.html';
+  window.location.href = 'SEMI-PUBLIC/start.html';
 });
 semiPublicButton2.addEventListener('click', (event) => { 
-  window.location.href = '/Website/SEMI-PUBLIC/start.html';
+  window.location.href = 'SEMI-PUBLIC/start.html';
 });
 semiPublicButton3.addEventListener('click', (event) => { 
-  window.location.href = '/Website/SEMI-PUBLIC/start.html';
+  window.location.href = 'SEMI-PUBLIC/start.html';
 });
 semiPublicButton4.addEventListener('click', (event) => { 
-  window.location.href = '/Website/SEMI-PUBLIC/start.html';
+  window.location.href = 'SEMI-PUBLIC/start.html';
 });
 semiPublicButton5.addEventListener('click', (event) => { 
-  window.location.href = '/Website/SEMI-PUBLIC/start.html';
+  window.location.href = 'SEMI-PUBLIC/start.html';
 });
 
 /* public-night */
@@ -125,10 +125,10 @@ const publicNightButton = document.getElementById('public-night-button');
 const publicNightButton2 = document.getElementById('public-night-button-2'); 
 
 publicNightButton.addEventListener('click', (event) => { 
-  window.location.href = '/Website/PUBLIC-NIGHT/start.html';
+  window.location.href = 'PUBLIC-NIGHT/start.html';
 });
 publicNightButton2.addEventListener('click', (event) => { 
-  window.location.href = '/Website/PUBLIC-NIGHT/start.html';
+  window.location.href = 'PUBLIC-NIGHT/start.html';
 });
 
 
