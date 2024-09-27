@@ -1,0 +1,328 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar {
+  width: 17px;
+  height: 17px;
+}
+
+::-webkit-scrollbar-track {
+  border-style: none;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background-color: black;
+  border: 3px solid transparent;
+  background-clip: content-box;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.background, .redwall, .pinkwall, .floor, .carpet, .backfloor, .backwall, .pfyr_poster, .pfyr_shadow, .WC, .tables, .tabledeco, .Bar, .plate, .bartender, .door {
+  background-repeat: no-repeat; 
+}
+
+.background {
+  background-image: url("images/background-pink.png");
+  position: fixed;
+  background-size: cover;
+  left: 0;
+  overflow: visible;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9;
+}
+
+
+
+.background-white {
+  background-image: url(images/background-white.png);
+  position: absolute;
+  left: 231px;
+  top: 84px;
+  width: 1493px;
+  height: 821px;
+  z-index: 73;
+}
+
+.wall {
+  background-image: url("images/wall.png");
+  position: absolute;
+  left: 309px;
+  top: 105px;
+  width: 1264px;
+  height: 677px;
+  z-index: 86;
+}
+
+.backwall {
+  background-image: url("images/backwall.png");
+  position: absolute;
+  left: 431px;
+  top: 348px;
+  width: 952px;
+  height: 293px;
+  z-index: 95;
+}
+
+.floor {
+  background-image: url("images/floor.png");
+  position: absolute;
+  left: 255px;
+  top: 273px;
+  width: 1451px;
+  height: 599px;
+  z-index: 106;
+}
+
+
+.bathtub {
+  background-image: url("images/bathtub.png");
+  position: absolute;
+  left: 554px;
+  top: 474px;
+  width: 396px;
+  height: 221px;
+  z-index: 123;
+}
+
+.towel-hanging {
+  background-image: url("images/towel-hanging.png");
+  position: absolute;
+  left: 484px;
+  top: 355px;
+  width: 51px;
+  height: 243px;
+  z-index: 112;
+}
+
+.towel-bathtub {
+  background-image: url("images/towel-bathtub.png");
+  position: absolute;
+  left: 893px;
+  top: 434px;
+  width: 67px;
+  height: 181px;
+  z-index: 113;
+}
+
+
+.window {
+  background-image: url("images/window.png");
+  position: absolute;
+  left: 691px;
+  top: 105px;
+  width: 197px;
+  height: 344px;
+  z-index: 138;
+}
+
+
+.woman {
+  background-image: url("images/woman.png");
+  position: absolute;
+  left: 309px;
+  top: 473px;
+  width: 294px;
+  height: 419px;
+  z-index: 500;
+}
+
+.door {
+  background-image: url("images/door.png");
+  position: absolute;
+  left: 1414px;
+  top: 213px;
+  width: 145px;
+  height: 530px;
+  z-index: 128;
+}
+
+.toilet-paper {
+  background-image: url("images/toilet-paper.png");
+  position: absolute;
+  left: 1008px;
+  top: 449px;
+  width: 47px;
+  height: 117px;
+  z-index: 150;
+}
+
+.toilet {
+  background-image: url("images/toilet.png");
+  position: absolute;
+  left: 1079px;
+  top: 180px;
+  width: 193px;
+  height: 496px;
+  z-index: 148;
+}
+
+.toilet-paper-rolls {
+  background-image: url("images/toilet-paper-rolls.png");
+  position: absolute;
+  left: 1301px;
+  top: 586px;
+  width: 52px;
+  height: 47px;
+  z-index: 151;
+}
+
+.towel-rolls {
+  background-image: url("images/towel-rolls.png");
+  position: absolute;
+  left: 1304px;
+  top: 496px;
+  width: 49px;
+  height: 53px;
+  z-index: 111;
+}
+
+.shame-mag-iframe {
+  z-index: 2000;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.overlay.active {
+  pointer-events: all;
+  opacity: 1;
+}
+
+.element-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 5px solid #DE048E;
+  height: 600px;
+  width: 800px;
+  border-radius: 15px;
+  box-shadow: 15px 15px 0px #DE048E;
+  z-index: 1500;
+}
+
+.imprint-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 5px solid #1100FF;
+  height: 600px;
+  width: 800px;
+  border-radius: 15px;
+  box-shadow: 15px 15px 0px #1100FF;
+  z-index: 1500;
+}
+
+.home-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 5px solid #DE048E;
+  height: 600px;
+  width: 800px;
+  border-radius: 15px;
+  box-shadow: 15px 15px 0px #DE048E;
+  z-index: 1500;
+}
+
+iframe {
+  flex: 1;
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+.imprint-popup.active {
+  transform: translate(-50%, -50%) scale(1); /*we use scale and not display so we can transition smoothly*/
+}
+
+.home-popup.active {
+  transform: translate(-50%, -50%) scale(1); /*we use scale and not display so we can transition smoothly*/
+}
+
+.element-popup.active {
+  transform: translate(-50%, -50%) scale(1); /*we use scale and not display so we can transition smoothly*/
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  background: none;
+  height: 70px;
+  border: none;
+  font-family: "dm-sans-36pt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  color: #1100FF;
+  cursor: pointer;
+  transition: hover 0.6s;
+}
+
+.close-button:hover {
+  transform: scale(1.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
