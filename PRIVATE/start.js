@@ -33,19 +33,19 @@ closeHomePopup.addEventListener('click', (event) => {
 const semiprivateButton = document.getElementById('semi-private-button');
 
 semiprivateButton.addEventListener('click', (event) => {
-  window.location.href = '/Website/SEMI-PRIVATE/00_START/start.html';
+  window.location.href = '../SEMI-PRIVATE/00_START/start.html';
 });
 
 const publicButton = document.getElementById('public-button'); 
 
 publicButton.addEventListener('click', (event) => {
-  window.location.href = '/Website/PUBLIC-DAY/start.html'
+  window.location.href = '../PUBLIC-DAY/start.html'
 });
 
 const semiPublicButton = document.getElementById('semi-public-button');
 
 semiPublicButton.addEventListener('click', (event) => {
-  window.location.href = '/Website/SEMI-PUBLIC/start.html'
+  window.location.href = '../SEMI-PUBLIC/start.html'
 });
 
 
