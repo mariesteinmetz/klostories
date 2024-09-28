@@ -61,26 +61,26 @@ closeHomePopup.addEventListener('click', (event) => {
 const privateButton = document.getElementById('private-button'); 
 
 privateButton.addEventListener('click', (event) => { 
-  window.location.href = '/Website/PRIVATE/00_START/start.html';
+  window.location.href = '../PRIVATE/start.html';
 });
 
 /* semi-public */
 const semiPublicButton = document.getElementById('semi-public-button'); 
 
 semiPublicButton.addEventListener('click', (event) => { 
-  window.location.href = '/Website/SEMI-PUBLIC/start.html';
+  window.location.href = '../SEMI-PUBLIC/start.html';
 });
 
 /* semi-private */
 const semiPrivateButton = document.getElementById('clock-button'); 
 
 semiPrivateButton.addEventListener('click', (event) => { 
-  window.location.href = '/Website/SEMI-PRIVATE/00_START/start.html';
+  window.location.href = '../SEMI-PRIVATE/00_START/start.html';
 });
 
 /* night */
 const dayButton = document.getElementById('day-button'); 
 
 dayButton.addEventListener('click', (event) => { 
-  window.location.href = '/Website/PUBLIC-DAY/start.html';
+  window.location.href = '../PUBLIC-DAY/start.html';
 });
