@@ -88,6 +88,6 @@ semiPrivateButton.addEventListener('click', (event) => {
 
 const publicButton = document.getElementById('public-button'); 
 publicButton.addEventListener('click', (event) => {
-  window.location.href = '../PUBLIC-DAY/start.html';
+  window.location.href = '../../PUBLIC-DAY/start.html';
 });
 
