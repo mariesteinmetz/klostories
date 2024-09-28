@@ -52,6 +52,23 @@
   color: #1100FF;
 }
 
+.bold {
+  font-weight: 700;
+}
+
+.italic-bold {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.sources {
+  font-size: 18px;
+}
+
+.sources-div {
+  margin-top: 150px;
+}
+
 
 ::-webkit-scrollbar {
   width: 50px;
