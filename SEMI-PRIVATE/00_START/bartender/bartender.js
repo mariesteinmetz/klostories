@@ -109,21 +109,21 @@ document.addEventListener('DOMContentLoaded', (event) => {
 function redirectToDifferentPage() {
   const iframe = window.parent.document.getElementById('bartenderIframe'); 
   if (iframe) {
-    iframe.src = '/Website/SEMI-PRIVATE/00_START/blind-man/blind-man.html';
+    iframe.src = '../blind-man/blind-man.html';
   }
 }
 
 function redirectToOldPage() {
   const iframe = window.parent.document.getElementById('bartenderIframe');
   if (iframe) {
-    iframe.src = '/Website/SEMI-PRIVATE/00_START/bartender/overlay.html'
+    iframe.src = 'overlay.html'
   }
 }
 
 function continueGame() {
   const iframe = window.parent.document.getElementById('bartenderIframe'); 
   if (iframe) {
-    iframe.src = '/Website/SEMI-PRIVATE/00_START/blind-man/blind-man.html';
+    iframe.src = '../blind-man/blind-man.html';
   }
 
   const popup = document.getElementById('old-lady-gameover-popup');
