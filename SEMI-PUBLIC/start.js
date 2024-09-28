@@ -110,19 +110,19 @@ closeHomePopup.addEventListener('click', (event) => {
 const privateButton = document.getElementById('private-button'); 
 
 privateButton.addEventListener('click', (event) => { 
-  window.location.href = '/Website/PRIVATE/00_START/start.html';
+  window.location.href = '../PRIVATE/start.html';
 });
 
 /* public */
 const publicButton = document.getElementById('public-button'); 
 
 publicButton.addEventListener('click', (event) => { 
-  window.location.href = '/Website/PUBLIC-DAY/start.html';
+  window.location.href = '../PUBLIC-DAY/start.html';
 });
 
 /* semi-private */
 const semiPrivateButton = document.getElementById('semi-private-button'); 
 
 semiPrivateButton.addEventListener('click', (event) => { 
-  window.location.href = '/Website/SEMI-PRIVATE/00_START/start.html';
+  window.location.href = '../SEMI-PRIVATE/00_START/start.html';
 });
