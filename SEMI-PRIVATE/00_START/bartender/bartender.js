@@ -62,9 +62,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
       texts[currentTextIndex].classList.remove('hidden');
     }
 
-    if (currentTextIndex === 0) {
+    /*if (currentTextIndex === 0) {
       redirectToOldPage();
-    }
+    }*/
 
     if (currentTextIndex === 3) {
       rightButton.classList.add('arrow-right-disabled'); 
