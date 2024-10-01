@@ -123,7 +123,7 @@ function redirectToOldPage() {
 function continueGame() {
   const iframe = window.parent.document.getElementById('bartenderIframe'); 
   if (iframe) {
-    iframe.src = '../blind-man/blind-man.html';
+    iframe.src = 'blind-man/blind-man.html';
   }
 
   const popup = document.getElementById('old-lady-gameover-popup');
