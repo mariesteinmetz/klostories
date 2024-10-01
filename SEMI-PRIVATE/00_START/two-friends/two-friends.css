@@ -26,7 +26,7 @@ z-index: 1000;
   margin-right: 10px;
   position: relative;
   flex-shrink: 0;
-  background-image: url(images/bartender-head.png);
+  background-image: url(image/bartender-head.png);
   background-size: cover;
 }
 
@@ -131,7 +131,7 @@ font-size: 16px;
 
 
 .person-bubble {
-  background-image: url(images/cloudy-bubble-long.png);
+  background-image: url(image/cloudy-bubble-long.png);
   position: absolute;
   left: -250px;
   top: -245px;
@@ -169,7 +169,7 @@ font-size: 16px;
 }
 
 .angry-bubble {
-  background-image: url(images/angry-bubble.png);
+  background-image: url(image/angry-bubble.png);
   position: absolute;
   left: 20px;
   top: 250px;
@@ -222,7 +222,7 @@ font-size: 16px;
 .person-button {
   background: none;
   border: none;
-  background-image: url(images/two-women.png);
+  background-image: url(image/two-women.png);
   width: 229px;
   height: 322px;
   cursor: pointer;
@@ -281,7 +281,7 @@ font-size: 16px;
   height: 100%;
   justify-content: center;
   z-index: 9999;
-  background-image: url(images/floor.png);
+  background-image: url(image/floor.png);
 }
 
 .person-gameover-popup iframe {
@@ -296,7 +296,7 @@ font-size: 16px;
 
 
 .person-small {
-  background-image: url(images/two-friends-small.png);
+  background-image: url(image/two-friends-small.png);
   position: absolute;
   left: 717px;
   top: 328px;
@@ -306,7 +306,7 @@ font-size: 16px;
 }
 
 .person-small-bubble {
-  background-image: url(images/cloudy-bubble.png);
+  background-image: url(image/cloudy-bubble.png);
   position: absolute;
   left: -280px;
   top: -100px;
