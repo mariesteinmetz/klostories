@@ -94,14 +94,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
 function redirectToDifferentPage() {
   const iframe = window.parent.document.getElementById('bartenderIframe'); 
   if (iframe) {
-    iframe.src = '../two-friends/two-friends.html';
+    iframe.src = 'two-friends/two-friends.html';
   }
 }
 
 function continueGame() {
   const iframe = window.parent.document.getElementById('bartenderIframe'); 
   if (iframe) {
-    iframe.src = '../two-friends/two-friends.html';
+    iframe.src = 'two-friends/two-friends.html';
   }
 
   const popup = document.getElementById('old-lady-gameover-popup');
