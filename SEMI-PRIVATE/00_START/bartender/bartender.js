@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 function redirectToDifferentPage() {
   const iframe = window.parent.document.getElementById('bartenderIframe'); 
   if (iframe) {
-    iframe.src = '../blind-man/blind-man.html';
+    iframe.src = 'blind-man/blind-man.html';
   }
 }
 
