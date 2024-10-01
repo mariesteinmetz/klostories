@@ -114,14 +114,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
 function redirectToDifferentPage() {
   const iframe = window.parent.document.getElementById('bartenderIframe'); 
   if (iframe) {
-    iframe.src = '../paruresis/paruresis.html';
+    iframe.src = 'paruresis/paruresis.html';
   }
 }
 
 function continueGame() {
   const iframe = window.parent.document.getElementById('bartenderIframe'); 
   if (iframe) {
-    iframe.src = '../paruresis/paruresis.html';
+    iframe.src = 'paruresis/paruresis.html';
   }
 
   const popup = document.getElementById('old-lady-gameover-popup');
